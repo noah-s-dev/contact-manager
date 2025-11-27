@@ -97,7 +97,8 @@ contact_manager/
 
 4. **Access the Application**
    - Start your web server (Apache, MySQL)
-   - Navigate to: `http://localhost/contact_manager/`
+   - Navigate to: `http://localhost/contact-manager/` (or `http://localhost/contact_manager/` depending on your folder name)
+   - **Note**: The application uses relative paths for all redirects, so it will work correctly with `http://localhost/project_name/` format
    - Login with demo credentials:
      - Username: `john`
      - Password: `john123`
